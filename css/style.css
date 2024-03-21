@@ -4,28 +4,27 @@
     box-sizing: border-box;
 }
 
+
 /* CLASSE UTILITY */
+
+.container {
+    max-width: 1200px;
+    margin: 10px auto;
+}
 
 .d-flex {
     display: flex;
 }
 
-.padding20 {
-    padding: 20px 0;
+.between {
+    justify-content: space-between;
 }
 
-.padding {
-    padding: 5px 0 20px;
-}
+.bottone {
+    background-color: pink;
+    border: 1px dashed black;
+    margin: 20px 0;
 
-.padding-bottom {
-    padding: 20px 0 3px;
-    border-bottom: 10px solid rgb(126, 188, 188);
-}
-
-.container {
-    max-width: 1200px;
-    margin: 10px auto;
 }
 
 /* FINE CLASSE UTILITY */
@@ -112,3 +111,24 @@
 }
 
 /* FINE CLASSE UTILITY COL- */
+
+/* CLASSE UTILITY PADDING */
+
+.padding20 {
+    padding: 20px 0;
+}
+
+.padding {
+    padding: 5px 0 20px;
+}
+
+.padding-bottom {
+    padding: 20px 0 3px;
+    border-bottom: 10px solid rgb(126, 188, 188);
+}
+
+.paddingtop {
+    padding: 20px 0 0;
+}
+
+/* FINE CLASSE UTILITY PADDING */
