@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* CLASSE UTILITY */
+
 .d-flex {
     display: flex;
 }
@@ -16,20 +18,23 @@
     padding: 5px 0 20px;
 }
 
-/* CLASSE UTILITY CONTAINER */
+.padding-bottom {
+    padding: 20px 0 3px;
+    border-bottom: 10px solid rgb(126, 188, 188);
+}
 
 .container {
     max-width: 1200px;
     margin: 10px auto;
 }
 
-/* FINE CLASSE UTILITY CONTAINER */
+/* FINE CLASSE UTILITY */
 
 
 /* CLASSE UTILITY BACKGROUND COLOR */
 
 .azzurro {
-    background-color: azure;
+    background-color: rgb(126, 188, 188);
 }
 
 .blu {
@@ -54,6 +59,10 @@
 
 .verde {
     background-color: green;
+}
+
+.viola {
+    background-color: blueviolet;
 }
 
 /* FINE CLASSE UTILITY BACKGROUND COLOR */
@@ -93,6 +102,12 @@
 .col-100 {
     width: 100%;
     height: 300px;
+    border: 1px dashed black;
+}
+
+.col-100-2 {
+    width: 100%;
+    height: 250px;
     border: 1px dashed black;
 }
 
