@@ -16,6 +16,20 @@
     display: flex;
 }
 
+.list {
+    list-style-type: none;
+}
+
+.list li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.list li a {
+    color: white;
+    text-decoration: none;
+}
+
 .between {
     justify-content: space-between;
 }
@@ -29,7 +43,17 @@
 
 .center {
     justify-content: center;
+    align-items: center;    
+}
+
+.center-riga {
     align-items: center;
+    padding-left: 5px;
+}
+
+.center-riga-2 {
+    align-items: center;
+    padding-left: 120px;
 }
 
 /* FINE CLASSE UTILITY */
@@ -140,7 +164,7 @@
 }
 
 .padding-header {
-    padding: 5px 0 5px;
+    padding: 5px 0;
 }
 
 .padding {
@@ -152,7 +176,7 @@
     border-bottom: 10px solid rgb(126, 188, 188);
 }
 
-.paddingtop {
+.padding-top {
     padding: 20px 0 0;
     border-top: 3px solid white;
 }
